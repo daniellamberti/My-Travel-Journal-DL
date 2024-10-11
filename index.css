@@ -1,0 +1,119 @@
+            /* ------- Gral reset ------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+        /* ----- Body and Main container styles ----- */
+
+body {
+  width: 100%;
+  font-family: inter, sans-serif;
+  background-color: rgb(194, 187, 187)
+}
+
+.main-container {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 1.6em;
+}
+
+          /* ----------- Header section styles -------- */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4em;
+  width: 100%;
+  height: 55px;
+  background-color: #F55A5A;
+  margin-bottom: 1em;
+}
+
+.header p {
+  color: white;
+}
+
+                  /* ------ Card styles ------ */
+
+.card-layout {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1.5em;
+  width: 470px;
+  height: 168px;
+  padding-top: 1.2em;
+  padding-bottom: 0.8em;
+}
+
+.destination-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.2em;
+}
+
+.maps-icon {
+  width: 4%;
+  margin: 0;
+}
+
+.destination--country {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 17%;
+  color: #2B283A;
+  margin: 0;
+  letter-spacing: 0.2em;
+}
+
+.destination--google-maps {
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: #918E9B;
+  margin-left: 10px;
+}
+
+.location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0;
+}
+
+.destination--name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+.destination--date {
+  display: flex;
+  font-size: 0.55rem;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.destination--description {
+  width: 90%;
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+                    /* --------- Media queries ---------- */
+
+@media (max-width: 560px) {
+
+  .card-layout {
+    width: 85%;
+  }
+}
